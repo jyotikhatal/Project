@@ -6,6 +6,7 @@ class DaemonThread extends Thread {
 			System.out.println("This is daemon thread" +Thread.currentThread().getName());
 		} else {
 			System.out.println("This is not daemon thread" +Thread.currentThread().getName());
+		    System.out.println("This is daemon");
 		}
 	}
 }
